@@ -1,10 +1,13 @@
 # A-Cooperative-Object-Transport-System-With-Behavior-Based-Robots
 Master's thesis
 
+For more info on the research and videos:
+http://hdl.handle.net/1969.6/31364
+
+
 About:
 The project is to move an box (rectangular cuboid) from one location to another using robots. The challenge is that the robots cannot see the goal location as the object hides their camera. There is an overhead camera known as the Observer can assist the robots by sharing simple information bout the global view. The language used is C++. The Observer program is a standalone application that runs on the PC. It captures a frame, does color blob detection to locate the object and the goal and writes those points to a shared memory. The two robots run their own programs and they read the coordinates from the shared memory(shared memory is a text file located on a third robot) whenver required.  
 
-For more info on the research, pleaseread the thesis pdf.
 
 
 Hardware
