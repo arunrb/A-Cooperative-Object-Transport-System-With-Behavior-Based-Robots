@@ -2,6 +2,7 @@
 // 	robot.cpp
 //
 //	Created by ARUN PRASSANTH RAMASWAMY BALASUBRAMANIAN, APRIL 2017
+//	https://www.linkedin.com/in/arun-prassanth-rb
 //#####################################################################################################################
 
 #include <khepera/khepera.h>
